@@ -125,6 +125,15 @@ section h3.section-subheading {
 footer {
   padding: 25px 0;
   text-align: center;
+  background: #1B1F25;
+  color: #fff;
+}
+
+footer img {
+  display: inherit !important;
+  position: relative;
+  left: 20px;
+  bottom: 5px;
 }
 
 footer span.copyright {
@@ -153,7 +162,7 @@ ul.social-buttons li a {
   line-height: 40px;
   outline: 0;
   color: #fff;
-  background-color: #222;
+  background-color: #ffc500;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
@@ -162,7 +171,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: #ff9d00;
 }
 
 .schedule-table {
@@ -179,3 +188,16 @@ ul.social-buttons li a:active {
 .schedule-table td, .schedule-table th {
   padding: 10px;
 }
+
+.map {
+  height: 300px;
+  padding: 0;
+}
+
+@media(max-width:768px) {
+  .map {
+    height: 75%;
+    padding: 0;
+  }
+}
+

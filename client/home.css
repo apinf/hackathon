@@ -66,6 +66,12 @@ html, body {
   transform: translateY(-50%);
 }
 
+#about {
+  background-image: url("/img/bg.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
 #about .section-content {
   margin-right: 200px;
   margin-bottom: 2em;
@@ -200,4 +206,21 @@ ul.social-buttons li a:active {
     padding: 0;
   }
 }
+
+@media (max-width: 1187px) {
+
+  #about {
+    background: none;
+  }
+
+  #about .section-content {
+    margin-right: 0;
+  }
+
+  .schedule-table {
+    max-width: 400px;
+  }
+
+}
+
 

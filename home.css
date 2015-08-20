@@ -34,15 +34,10 @@ html, body {
   transition: all 0.5s ease;
 }
 
-.section-content {
-  margin-right: 200px;
-  margin-bottom: 2em;
-}
-
 .section-title {
   color: #ff9d00;
   font-size: 2.5em;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0.7em;
 }
 
@@ -70,6 +65,11 @@ html, body {
   transform: translateY(-50%);
 }
 
+#about .section-content {
+  margin-right: 200px;
+  margin-bottom: 2em;
+}
+
 #organiser {
   background-color: #1B1F25;
 }
@@ -77,11 +77,20 @@ html, body {
 #organiser .section-heading {
   color: #fff;
   font-size: 2.5em;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 #organiser .img-responsive {
   margin: 0 auto;
+}
+
+#schedule .section-content {
+  margin-left: 200px;
+  margin-bottom: 2em;
+}
+
+#schedule .section-heading {
+  color: #ff9d00;
 }
 
 section {
@@ -153,4 +162,19 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: #fed136;
+}
+
+.schedule-table {
+  margin: auto;
+  text-align: left;
+  width: 600px;
+  font-size: 1.4em;
+}
+
+.schedule-table tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.schedule-table td, .schedule-table th {
+  padding: 10px;
 }

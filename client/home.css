@@ -230,6 +230,11 @@ ul.social-buttons li a:active {
   margin-bottom: 1em;
 }
 
+.navbar {
+  margin-bottom: 0;
+  min-height: 0;
+}
+
 .navbar a {
   font-size: 1.5em;
   color: #fff;

@@ -58,6 +58,7 @@ html, body {
   background-size: cover;
   -o-background-size: cover;
   height: 100%;
+  padding-top: 50px !important;
 }
 
 #header .container {
@@ -98,6 +99,7 @@ html, body {
 
 #schedule .section-heading {
   color: #ff9d00;
+  margin-bottom: 0.7em;
 }
 
 section {
@@ -121,11 +123,6 @@ section h3.section-subheading {
   section {
     padding: 100px 0;
   }
-}
-
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
 }
 
 footer {
@@ -221,6 +218,20 @@ ul.social-buttons li a:active {
     max-width: 400px;
   }
 
+}
+
+#prizes .section-heading {
+  color: #ff9d00;
+  margin-bottom: 0.7em;
+}
+
+.prize1st-subheading {
+  font-size: 2em;
+}
+
+.navbar a {
+  font-size: 1.5em;
+  color: #fff;
 }
 
 

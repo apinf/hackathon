@@ -1,75 +1,71 @@
-body {
-  font-family: sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,500,900);
+
+html, body {
+  height: 100%;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 960px;
 }
 
 .bg-light-gray {
   background-color: #f7f7f7;
 }
 
-.img-centered {
-  margin: 0 auto;
-}
-
-.btn-xl {
-  padding: 20px 40px;
-  border-radius: 3px;
+.meta {
   text-transform: uppercase;
-  font-family: sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: #fff;
 }
 
-header {
+.register {
+  display: inline-block;
+  padding: 15px 25px;
+  margin-bottom: 20px;
+  font-size: 14px;
   text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0px;
+  border-width: 0px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.section-content {
+  margin-right: 200px;
+}
+
+.section-title {
+  color: #ff9d00;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+
+.section-text {
+  color: #212121;
+  font-size: 1.4em;
+}
+
+#header {
   color: #fff;
   background-color: #03A9F4;
+  background-image: url("/img/bg.jpg");
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  height: 100%;
 }
 
-header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-
-header .intro-text .intro-lead-in {
-  margin-bottom: 25px;
-  font-size: 22px;
-  line-height: 22px;
-}
-
-header .intro-text .intro-heading {
-  margin-bottom: 25px;
-  text-transform: uppercase;
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 50px;
-}
-
-@media(min-width:768px) {
-  header .intro-text {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-
-  header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-size: 40px;
-    line-height: 40px;
-  }
-
-  header .intro-text .intro-heading {
-    margin-bottom: 50px;
-    text-transform: uppercase;
-    font-size: 75px;
-    font-weight: 700;
-    line-height: 75px;
-  }
+#header .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #contact {

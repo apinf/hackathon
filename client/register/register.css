@@ -1,5 +1,46 @@
 .top-box {
-  min-height: 300px;
+  min-height: 200px;
   background: tomato;
-  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+.register-title {
+  font-size: 3.5em;
+  color: white;
+  font-weight: 400;
+  margin-top: 65px;
+  margin-bottom: 20px;
+  display: inline-block;
+  float: right;
+}
+
+.register-title small {
+  font-weight: 300;
+  color: white;
+}
+
+.top-box .meta-box {
+  margin-top: 3em;
+  color: white;
+  display: inline-block;
+}
+
+.content {
+  padding-bottom: 20px;
+}
+
+.content .card.first {
+  margin-top: -60px;
+}
+
+.card {
+  position: relative;
+  background: #fff;
+  padding: 50px;
+  max-width: 960px;
+  margin: 20px auto 0 auto;
+  box-shadow: 0 2px 4px rgba(100,100,100,.1);
 }

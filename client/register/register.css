@@ -5,7 +5,14 @@
 
 .top-box {
   min-height: 200px;
-  background: tomato;
+  background: #EFEFF3;
+  background-image: url("/img/bg.jpg");
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   font-family: 'Roboto', sans-serif;
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;

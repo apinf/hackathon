@@ -1,3 +1,8 @@
+.page-content {
+  background-color: #EFEFF3;
+  height: 100%;
+}
+
 .top-box {
   min-height: 200px;
   background: tomato;

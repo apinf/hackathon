@@ -1,6 +1,5 @@
 .page-content {
   background-color: #EFEFF3;
-  height: 100%;
 }
 
 .top-box {
@@ -23,7 +22,7 @@
   font-size: 3.5em;
   color: white;
   font-weight: 400;
-  margin-top: 65px;
+  margin-top: 55px;
   margin-bottom: 20px;
   display: inline-block;
   float: right;

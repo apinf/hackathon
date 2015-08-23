@@ -49,8 +49,7 @@ html, body {
 
 #header {
   color: #fff;
-/*
-  background-color: #1B1F25;
+  /*
   background-image: url("/img/bg.jpg");
   background-position: center center;
   background-repeat: none;
@@ -58,9 +57,13 @@ html, body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-*/
+  */
   height: 100%;
   padding-top: 50px !important;
+}
+
+.video-bg {
+  background-color: rgba(27, 31, 37, 0.7);
 }
 
 #header .container {

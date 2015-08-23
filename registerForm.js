@@ -1,13 +1,22 @@
 Schema = {};
 
 Schema.registerForm = new SimpleSchema({
-  name: {
+  firstName: {
     type: String,
-    label: "Your name",
+    label: "First name",
     max: 50,
     optional: false,
     autoform: {
-      placeholder: 'Your name'
+      placeholder: 'Your first name'
+    }
+  },
+  secondName: {
+    type: String,
+    label: "Second name",
+    max: 50,
+    optional: false,
+    autoform: {
+      placeholder: 'Your second name'
     }
   },
   email: {
@@ -19,14 +28,63 @@ Schema.registerForm = new SimpleSchema({
       placeholder: 'Your email'
     }
   },
-  message: {
+  company: {
     type: String,
-    label: "Message",
+    label: "Company / Organization / Educational institution",
+    max: 50,
+    optional: false,
+    autoform: {
+      placeholder: 'Company / Organization / Educational institution'
+    }
+  },
+  diet: {
+    type: String,
+    label: "Special diet",
     max: 1000,
     optional: false,
     autoform: {
       rows: 5,
-      placeholder: 'Your message'
+      placeholder: 'Special diet'
     }
-  }
+  },
+  teamMembers: {
+    type: String,
+    label: "Other team members",
+    max: 1000,
+    optional: false,
+    autoform: {
+      rows: 5,
+      placeholder: 'Provide name, company/organization/educational institution, email (max 3 persons per team)'
+    }
+  },
+  teamName: {
+    type: String,
+    label: "Name of the hackathon team",
+    max: 1000,
+    optional: false,
+    autoform: {
+      rows: 5,
+      placeholder: 'Name of the hackathon team'
+    }
+  },
+  teamInfo: {
+    type: String,
+    label: "Tell us about your team",
+    max: 1000,
+    optional: false,
+    autoform: {
+      rows: 5,
+      placeholder: 'Tell us about your team'
+    }
+  },
+  teamIdeas: {
+    type: String,
+    label: "Tell us about the type of problem you want to solve or idea you have",
+    max: 1000,
+    optional: false,
+    autoform: {
+      rows: 5,
+      placeholder: 'Tell us about the type of problem you want to solve or idea you have'
+    }
+  },
 });

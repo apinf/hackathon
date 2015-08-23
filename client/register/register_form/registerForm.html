@@ -1,5 +1,15 @@
 <template name="registerForm">
   {{#autoForm schema=registerFormSchema id="registerForm" type="method"}}
-  {{> afQuickField name='name'}}
+  <h3>Team contact person:</h3>
+  {{> afQuickField name='firstName'}}
+  {{> afQuickField name='secondName'}}
+  {{> afQuickField name='email'}}
+  {{> afQuickField name='company'}}
+  {{> afQuickField name='diet'}}
+  <h3>Team:</h3>
+  {{> afQuickField name='teamMembers'}}
+  {{> afQuickField name='teamName'}}
+  {{> afQuickField name='teamInfo'}}
+  {{> afQuickField name='teamIdeas'}}
   {{/autoForm}}
 </template>

@@ -41,7 +41,7 @@ Schema.registerForm = new SimpleSchema({
     type: String,
     label: "Special diet",
     max: 1000,
-    optional: false,
+    optional: true,
     autoform: {
       rows: 5,
       placeholder: 'Special diet'

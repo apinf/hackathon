@@ -1,5 +1,5 @@
 <template name="registerForm">
-  {{#autoForm schema=registerFormSchema id="registerForm" type="method" meteormethod="register"}}
+  {{#autoForm collection="Registrations" id="registerForm" type="insert"}}
   <h3>Team contact person:</h3>
   {{> afQuickField name='firstName'}}
   {{> afQuickField name='secondName'}}

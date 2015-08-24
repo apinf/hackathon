@@ -12,7 +12,7 @@ Meteor.methods({
 
     // Send the e-mail
     Email.send({
-      to: "illya.nizyev@gmail.com",
+      to: Meteor.settings.mail.masterEmail,
       from: doc.email,
       subject: "Apinf Hackathon Register Form - Message From " + doc.name,
       text: text

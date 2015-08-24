@@ -3,3 +3,30 @@ Template.registerForm.helpers({
     return Schema.registerForm;
   }
 });
+
+
+AutoForm.hooks({
+  registerForm: {
+    beginSubmit: function () {
+      // Disable form elements while submitting form
+      $('[data-schema-key],button').attr("disabled", "disabled");
+    },
+    endSubmit: function () {
+      // Enable form elements after form submission
+      $('[data-schema-key],button').removeAttr("disabled");
+    }
+  }
+});
+
+AutoForm.addHooks(['registerForm'], {
+  onSuccess: function () {
+    FlashMessages.sendSuccess('Thank you! Your form has been successfully submitted.');
+  }
+});
+
+FlashMessages.configure({
+  // Configuration for FlashMessages.
+  autoHide: true,
+  hideDelay: 5000,
+  autoScroll: false
+});

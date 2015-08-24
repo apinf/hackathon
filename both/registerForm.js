@@ -1,6 +1,6 @@
-Schema = {};
+Registrations = new Mongo.Collection('registrations');
 
-Schema.registerForm = new SimpleSchema({
+RegisterFormSchema = new SimpleSchema({
   firstName: {
     type: String,
     label: "First name",
@@ -88,3 +88,6 @@ Schema.registerForm = new SimpleSchema({
     }
   }
 });
+
+
+Registrations.attachSchema(RegisterFormSchema);

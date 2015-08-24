@@ -19,8 +19,9 @@ AutoForm.hooks({
 });
 
 AutoForm.addHooks(['registerForm'], {
-  onSuccess: function () {
+  onSuccess: function (formMethod, registrationId) {
     FlashMessages.sendSuccess('Thank you! Your form has been successfully submitted.');
+    Meteor.call('register', registrationId);
   }
 });
 

@@ -4,7 +4,7 @@ Meteor.methods({
     check(doc, Schema.registerForm);
 
     // Build the e-mail text
-    var text = "Name: " + doc.firstName + doc.secondName + "\n\n"
+    var text = "Name: " + doc.firstName + " " + doc.secondName + "\n\n"
     + "Email: " + doc.email + "\n\n"
     + "Company / Organization / Educational institution: " + doc.company + "\n\n"
     + "Special diet: " + doc.diet + "\n\n"

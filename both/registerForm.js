@@ -86,5 +86,5 @@ Schema.registerForm = new SimpleSchema({
       rows: 5,
       placeholder: 'Tell us about the type of problem you want to solve or idea you have'
     }
-  },
+  }
 });

@@ -49,21 +49,12 @@ html, body {
 
 #header {
   color: #fff;
-  /*
-  background-image: url("/img/bg.jpg");
-  background-position: center center;
-  background-repeat: none;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  */
   height: 100%;
   padding-top: 50px !important;
 }
 
 .video-bg {
-  background-color: rgba(27, 31, 37, 0.7);
+  background-color: rgba(27, 31, 37, 0.4);
 }
 
 #header .container {

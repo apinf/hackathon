@@ -6,6 +6,7 @@ Router.route('/register', function () {
   this.render('register');
 });
 
-Router.route('/registrants', function () {
-  this.render('registrants');
+Router.route('/admin', function () {
+  this.render('admin');
 });
+

@@ -1,6 +1,10 @@
 <template name="admin">
-  {{> loginButtons}}
   <div class="container">
+    {{> loginButtons}}
+    {{#if isInRole 'admin'}}
     {{> registrants}}
+    {{else}}
+    <h1>Four Zero Four. Nothing to see here.</h1>
+    {{/if}}
   </div>
 </template>

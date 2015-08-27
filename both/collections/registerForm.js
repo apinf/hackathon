@@ -91,3 +91,10 @@ RegisterFormSchema = new SimpleSchema({
 
 
 Registrations.attachSchema(RegisterFormSchema);
+
+Registrations.allow({
+  insert: function () {
+    return true;
+  }
+});
+

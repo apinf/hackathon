@@ -12,11 +12,11 @@ RegisterFormSchema = new SimpleSchema({
   },
   secondName: {
     type: String,
-    label: "Second name",
+    label: "Last name",
     max: 50,
     optional: false,
     autoform: {
-      placeholder: 'Your second name'
+      placeholder: 'Your last name'
     }
   },
   email: {

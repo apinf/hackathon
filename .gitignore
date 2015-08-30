@@ -2,3 +2,4 @@
 .meteor/meteorite
 settings.json
 mup.json
+analytics.js

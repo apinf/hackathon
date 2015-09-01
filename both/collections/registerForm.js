@@ -10,7 +10,7 @@ RegisterFormSchema = new SimpleSchema({
       placeholder: 'Your first name'
     }
   },
-  secondName: {
+  lastName: {
     type: String,
     label: "Last name",
     max: 50,

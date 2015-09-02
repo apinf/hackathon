@@ -5,6 +5,7 @@ html, body {
   width: 100%;
   margin: 0px;
   font-family: 'Roboto', sans-serif;
+  font-size: 100%;
 }
 
 .container {
@@ -193,13 +194,6 @@ ul.social-buttons li a:active {
   padding: 0;
 }
 
-@media(max-width:768px) {
-  .map {
-    height: 75%;
-    padding: 0;
-  }
-}
-
 @media (max-width: 1187px) {
 
   #about {
@@ -210,8 +204,40 @@ ul.social-buttons li a:active {
     margin-right: 0;
   }
 
+  .video-bg {
+    height: 60% !important;
+  }
+
+  #header {
+    height: 60%;
+  }
+
+  p {
+    font-size: 160%;
+  }
+
+  h1, h2, h3, h5, h6 {
+    font-size: 160% !important;
+  }
+
+  h4 {
+    font-size: 160% !important;
+  }
+
+  a {
+    font-size: 110% !important
+  }
+}
+
+@media (min-width: 768px) {
+  .page-content .container {
+    width: auto !important;
+  }
+}
+
+@media (max-width: 1187px) {
   .schedule-table {
-    max-width: 400px;
+    width: 100%;
   }
 
 }

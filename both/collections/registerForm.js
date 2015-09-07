@@ -51,7 +51,7 @@ RegisterFormSchema = new SimpleSchema({
     type: String,
     label: "Other team members",
     max: 1000,
-    optional: false,
+    optional: true,
     autoform: {
       rows: 5,
       placeholder: 'Provide name, company/organization/educational institution, email (max 3 persons per team)'
@@ -61,7 +61,7 @@ RegisterFormSchema = new SimpleSchema({
     type: String,
     label: "Name of the hackathon team",
     max: 1000,
-    optional: false,
+    optional: true,
     autoform: {
       rows: 5,
       placeholder: 'Name of the hackathon team'
@@ -71,7 +71,7 @@ RegisterFormSchema = new SimpleSchema({
     type: String,
     label: "Tell us about your team",
     max: 1000,
-    optional: false,
+    optional: true,
     autoform: {
       rows: 5,
       placeholder: 'Tell us about your team'
@@ -81,7 +81,7 @@ RegisterFormSchema = new SimpleSchema({
     type: String,
     label: "Tell us about the type of problem you want to solve or idea you have",
     max: 1000,
-    optional: false,
+    optional: true,
     autoform: {
       rows: 5,
       placeholder: 'Tell us about the type of problem you want to solve or idea you have'
